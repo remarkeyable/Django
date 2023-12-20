@@ -55,6 +55,12 @@ python manage.py runserver
   <li>A folder with a set of Python files</li>
   <li>Each app fits a specific purpose</li>
 </ul>
+<h3>Examples of Django Apps</h3>
+<ul>
+  <li>Blog</li>
+  <li>Forum</li>
+  <li>Wiki</li>
+</ul>
 
 
 
