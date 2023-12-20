@@ -48,6 +48,16 @@ cd foldername
 ```
 python manage.py runserver
 ```
+---
+<h2>Django Apps</h2>
+<ul>
+  <li>A component in a Django project</li>
+  <li>A folder with a set of Python files</li>
+  <li>Each app fits a specific purpose</li>
+</ul>
+
+
+
 
   
 
