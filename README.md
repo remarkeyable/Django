@@ -39,7 +39,7 @@ django-admin startproject namefile
   <ul>
     <li>routes web requests based on URL</li>
   </ul>
-
+</ul>
 <h3>To run the program</h3>
 
 ```
