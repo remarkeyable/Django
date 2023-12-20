@@ -16,3 +16,28 @@
 ```
 django-admin startproject namefile
 ```
+
+<h3>Files in the Project Folder</h3>
+<ul>
+  <li>manage.py</li>
+  <ul>
+    <li>Runs Commands</li>
+  </ul>
+  <li>__init__.py</li>
+  <ul>
+    <li>Tells Python that the folder contains Python code</li>
+  </ul>
+  <li>wsgi.py & asgi.py</li>
+  <ul>
+    <li>define how web servers can communicate with web applications</li>
+  </ul>
+  <li>settings.py</li>
+  <ul>
+    <li>configures the Django project</li>
+  </ul>
+  <li>urls.py</li>
+  <ul>
+    <li>routes web requests based on URL</li>
+  </ul>
+  
+</ul>
