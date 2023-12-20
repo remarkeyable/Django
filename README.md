@@ -10,3 +10,9 @@
   <li>Form handling</li>
   <li>Unit testing</li>
 </ul>
+
+<h3>To start</h3>
+
+```
+django-admin startproject namefile
+```
