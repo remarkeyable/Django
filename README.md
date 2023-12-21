@@ -9,6 +9,9 @@
   <li>HTML templating</li>
   <li>Form handling</li>
   <li>Unit testing</li>
+  <li>Admin Site</li>
+  <li>Authentication</li>
+  <li>Caching</li>
 </ul>
 
 <h3>To start</h3>
