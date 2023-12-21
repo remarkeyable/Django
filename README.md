@@ -73,6 +73,7 @@ python manage.py runserver
 python manage.py startapp filename
 ```
 <p><em>Every app needs to register on <b>settings.py<b></em></p>
+<img src="img/1.jpg">
 
 
 
