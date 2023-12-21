@@ -97,6 +97,31 @@ from django.http import HttpResponse
 def say_hello(response):
     return HttpResponse('Hello World')
  ```
+<p>add urls.py on the app folder</p>
+
+ ```python
+from django.urls import path
+from . import views
+
+#UrlConf
+urlpatterns = [
+    path('hello/', views.say_hello)
+]
+```
+
+<p>main folders urls.py</p>
+
+ ```python
+from django.contrib import admin
+from django.urls import path, include
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('playground/', include('playground.urls'))
+]
+```
+
+
 
 
 
