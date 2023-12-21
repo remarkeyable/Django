@@ -73,7 +73,30 @@ python manage.py runserver
 python manage.py startapp filename
 ```
 <p><em>Every app needs to register on <b>settings.py<b></em></p>
-<img src="img/1.jpg">
+  
+```python
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'playground' #-> my app
+]
+```
+
+ ჻჻჻჻჻ <ins>views.py</ins>
+ <p>request handler</p>
+
+ ```python
+from django.shortcuts import render
+from django.http import HttpResponse
+# Create your views here.
+
+def say_hello(response):
+    return HttpResponse('Hello World')
+ ```
 
 
 
