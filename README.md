@@ -65,6 +65,10 @@ python manage.py runserver
   <li>Wiki</li>
 </ul>
 
+---
+
+<h2>Creating first app</h2>
+
 
 
 
