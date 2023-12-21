@@ -69,6 +69,11 @@ python manage.py runserver
 
 <h2>Creating first app</h2>
 
+```
+python manage.py startapp filename
+```
+<p><em>Every app needs to register on <b>settings.py<b></em></p>
+
 
 
 
