@@ -109,7 +109,7 @@ urlpatterns = [
 ]
 ```
 
-<p>main folders urls.py</p>
+<p> ჻჻჻჻჻ main folders urls.py</p>
 
  ```python
 from django.contrib import admin
