@@ -3,3 +3,9 @@
 ```
 python manage.py migrate
 ```
+
+<h4>Super User</h4>
+
+```
+python manage.py createsuperuser
+```
