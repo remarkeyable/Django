@@ -9,3 +9,15 @@ python manage.py migrate
 ```
 python manage.py createsuperuser
 ```
+
+<h4>User Authentication</h4>
+<h5>Import</h5>
+
+```python
+from django.contrib.auth.decorators import login_required
+```
+
+```python
+@login_required(login_url='/admin')
+def auth(request):
+```
